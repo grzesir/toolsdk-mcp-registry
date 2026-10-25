@@ -11,7 +11,10 @@
   "remotes": [
     {
       "type": "streamable-http",
-      "url": "https://mcp.botspot.trade/mcp"
+      "url": "https://mcp.botspot.trade/mcp",
+      "auth": {
+        "type": "oauth2"
+      }
     }
   ]
 }
